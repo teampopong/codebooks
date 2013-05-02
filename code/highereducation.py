@@ -4,9 +4,9 @@
 import pandas as pd
 
 '''
-- 데이터 다운로드: [기관코드조회](https://www.code.go.kr/std/jsp/index.jsp)
+- 데이터 다운로드: [기관코드조회](https://www.code.go.kr/std/jsp/stdcode/orgCodeL.jsp)
     > 기관유형선택 '고등교육기관'
-    > 'cb-highereducation-specific.csv'로 저장
+    > '기관코드 조회자료' 버튼을 클릭해 파일로 저장 (ex: `cb-higher-education-institutes-d20130501.csv`)
 
 - 데이터 처리:
 
@@ -14,7 +14,7 @@ import pandas as pd
         python highereducation.py
 '''
 
-inp = 'cb-higher-education-institutes-d20130501.csv'
+inp = 'cb-higher-education-institutes-d20130501.csv'    # Input filename
 outp = 'cb-higher-education-institutes-d20130501-unique.csv'
 cb = pd.read_csv(inp, encoding='utf-8')
 
