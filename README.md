@@ -7,7 +7,7 @@ These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
 ### 인물코드 (Personal codes)
 - [`cb-people.csv`]
     - [Team POPONG](http://popong.com) 자체적으로 생성
-    - 의원의 생년 + 임의의 숫자를 기준
+    - 의원의 생년 + 임의의 숫자를 기준으로 ID 부여
 
 ### 정당코드 (Partisan codes)
 - [`cb-parties.csv`]
