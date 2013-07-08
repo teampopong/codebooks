@@ -2,6 +2,16 @@ POPONG Codebooks
 ================
 
 Codebooks used for data at Team POPONG.
+These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
+
+### 인물코드 (Personal codes)
+- [`cb-people.csv`]
+    - [Team POPONG](http://popong.com) 자체적으로 생성
+    - 의원의 생년 + 임의의 숫자를 기준
+
+### 정당코드 (Partisan codes)
+- [`cb-parties.csv`]
+    - [Team POPONG](http://popong.com) 자체 생성
 
 ### 지역코드 (Regional codes)
 - [`cb-administrative-divisions-20100401.csv`](http://raw.github.com/teampopong/codebooks/master/cb-administrative-divisions-20100401.csv)
