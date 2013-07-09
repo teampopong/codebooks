@@ -7,12 +7,12 @@ These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
 ### 인물코드 (Personal codes)
 - [`cb-people.csv`](https://github.com/teampopong/codebooks/blob/master/cb-people.csv)
     - [Team POPONG](http://popong.com) 자체 생성
-    - Birth year + random number
+    - Birth year of person + random number를 기준으로 ID 부여
 
 ### 정당코드 (Partisan codes)
 - [`cb-parties.csv`]((https://github.com/teampopong/codebooks/blob/master/cb-parties.csv)
     - [Team POPONG](http://popong.com) 자체 생성
-    - Unique random number
+    - Unique random number를 기준으로 ID 부여
 
 ### 지역코드 (Regional codes)
 - [`cb-administrative-divisions-20100401.csv`](http://raw.github.com/teampopong/codebooks/master/cb-administrative-divisions-20100401.csv)
