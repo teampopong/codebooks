@@ -10,7 +10,12 @@ These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
     - Birth year of person + random number를 기준으로 ID 부여
 
 ### 정당코드 (Partisan codes)
-- [`cb-parties.csv`]((https://github.com/teampopong/codebooks/blob/master/cb-parties.csv)
+- [`cb-parties.csv`](https://github.com/teampopong/codebooks/blob/master/cb-parties.csv)
+    - [Team POPONG](http://popong.com) 자체 생성
+    - Unique random number를 기준으로 ID 부여
+
+### 정당코드 (Partisan codes)
+- [`cb-elections.csv`](https://github.com/teampopong/codebooks/blob/master/cb-elections.csv)
     - [Team POPONG](http://popong.com) 자체 생성
     - Unique random number를 기준으로 ID 부여
 
