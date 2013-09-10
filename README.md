@@ -4,20 +4,17 @@ POPONG Codebooks
 Codebooks used for data at Team POPONG.
 These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
 
-### 인물코드 (Person codes)
-- [`cb-people.csv`](https://github.com/teampopong/codebooks/blob/master/cb-people.csv)
-    - [Team POPONG](http://popong.com) 자체 생성
-    - Birth year of person + random number를 기준으로 ID 부여
+## 국가공인코드
 
-### 정당코드 (Party codes)
-- [`cb-parties.csv`](https://github.com/teampopong/codebooks/blob/master/cb-parties.csv)
-    - [Team POPONG](http://popong.com) 자체 생성
-    - Unique random number를 기준으로 ID 부여
-
-### 선거코드 (Election codes)
-- [`cb-elections.csv`](https://github.com/teampopong/codebooks/blob/master/cb-elections.csv)
-    - [Team POPONG](http://popong.com) 자체 생성
-    - Unique random number를 기준으로 ID 부여
+### 기관코드 (Institution codes)
+- [`cb-higher-education-institutes-d20130501.csv`](http://raw.github.com/teampopong/codebooks/master/cb-higher-education-institutes-d20130501.csv)
+    - 출처: [안정행정부 행정표준코드관리시스템](http://www.code.go.kr/std/jsp/stdcode/orgCodeL.jsp)
+    - 내용: 국내 고등교육기관 코드
+    - 저장일: 2013-05-01
+    - 가공된 버젼:
+        - 파일명: [`cb-higher-education-institutes-d20130501-unique.csv`](http://raw.github.com/teampopong/codebooks/master/cb-higher-education-institutes-d20130501-unique.csv)
+        - 처리코드: `code/highereducation.py`
+        - 내용: 원본에서 상위기관들의 코드만 선택
 
 ### 지역코드 (Region codes)
 - [`cb-administrative-divisions-20100401.csv`](http://raw.github.com/teampopong/codebooks/master/cb-administrative-divisions-20100401.csv)
@@ -35,12 +32,20 @@ These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
     - 기준일: 2012-12-31
     - 최종수정일: 2013-04-15
 
-### 기관코드 (Institution codes)
-- [`cb-higher-education-institutes-d20130501.csv`](http://raw.github.com/teampopong/codebooks/master/cb-higher-education-institutes-d20130501.csv)
-    - 출처: [안정행정부 행정표준코드관리시스템](http://www.code.go.kr/std/jsp/stdcode/orgCodeL.jsp)
-    - 내용: 국내 고등교육기관 코드
-    - 저장일: 2013-05-01
-    - 가공된 버젼:
-        - 파일명: [`cb-higher-education-institutes-d20130501-unique.csv`](http://raw.github.com/teampopong/codebooks/master/cb-higher-education-institutes-d20130501-unique.csv)
-        - 처리코드: `code/highereducation.py`
-        - 내용: 원본에서 상위기관들의 코드만 선택
+
+## 자체생성코드
+[Team POPONG](http://popong.com)에 의해 자체 생성된 코드들.
+- IDs are unique random numbers, if not otherwise noted.
+
+### 인물코드 (Person codes)
+- [`cb-people.csv`](https://github.com/teampopong/codebooks/blob/master/cb-people.csv)
+- Birth year of person + random number를 기준으로 ID 부여
+
+### 의안상태코드 (Bill status codes)
+- [`cb-people.csv`](https://github.com/teampopong/codebooks/blob/master/cb-bill-statuses.csv)
+
+### 정당코드 (Party codes)
+- [`cb-parties.csv`](https://github.com/teampopong/codebooks/blob/master/cb-parties.csv)
+
+### 선거코드 (Election codes)
+- [`cb-elections.csv`](https://github.com/teampopong/codebooks/blob/master/cb-elections.csv)
