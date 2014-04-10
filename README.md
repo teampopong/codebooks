@@ -7,7 +7,7 @@ These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
 ## Descriptions
 ### 국가공인코드
 
-#### 기관코드 (Institution codes)
+#### 고등교육기관코드 (Institution codes)
 - [`cb-higher-education-institutes-d20130501.csv`](http://raw.github.com/teampopong/codebooks/master/cb-higher-education-institutes-d20130501.csv)
     - 출처: [안정행정부 행정표준코드관리시스템](http://www.code.go.kr/std/jsp/stdcode/orgCodeL.jsp)
     - 내용: 국내 고등교육기관 코드
@@ -50,6 +50,10 @@ These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
 
 #### 선거코드 (Election codes)
 - [`cb-elections.csv`](https://github.com/teampopong/codebooks/blob/master/cb-elections.csv)
+
+#### 발의자코드 (Sponsor codes)
+- 의안 발의자 중 국회의원이 아닌 경우
+- [`cb-sponsors.csv`](https://github.com/teampopong/codebooks/blob/master/cb-sponsors.csv)
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
