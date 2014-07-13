@@ -43,7 +43,7 @@ These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
 - Birth year of person + random number를 기준으로 ID 부여
 
 #### 의안상태코드 (Bill status codes)
-- [`cb-people.csv`](https://github.com/teampopong/codebooks/blob/master/cb-bill-statuses.csv)
+- [`cb-bill-statuses.csv`](https://github.com/teampopong/codebooks/blob/master/cb-bill-statuses.csv)
 
 #### 정당코드 (Party codes)
 - [`cb-parties.csv`](https://github.com/teampopong/codebooks/blob/master/cb-parties.csv)
