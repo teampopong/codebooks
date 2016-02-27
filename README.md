@@ -4,12 +4,11 @@ POPONG Codebooks
 Codebooks used for data at Team POPONG.
 These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
 
-## Descriptions
 ### 국가공인코드
 
 #### 고등교육기관코드 (Institution codes)
 - [`cb-higher-education-institutes-d20130501.csv`](http://raw.github.com/teampopong/codebooks/master/cb-higher-education-institutes-d20130501.csv)
-    - 출처: [안정행정부 행정표준코드관리시스템](http://www.code.go.kr/std/jsp/stdcode/orgCodeL.jsp)
+    - 출처: 안정행정부 행정표준코드관리시스템 ([기관코드](http://www.code.go.kr/std/jsp/stdcode/orgCodeL.jsp), [학과/학력 등 코드](http://www.code.go.kr/std/jsp/stdcodesrch/classSearchL.jsp))
     - 내용: 국내 고등교육기관 코드
     - 저장일: 2013-05-01
     - 가공된 버젼:
@@ -32,6 +31,8 @@ These codes are used in Team POPONG's service [Pokr](http://pokr.kr).
     - 내용: 행정구역분류와 행정기관 및 법정동코드 연계표
     - 기준일: 2012-12-31
     - 최종수정일: 2013-04-15
+
+- 참고: [중앙선거관리위원회 선거통계시스템 선거구-행정구역(읍면동) 매핑](http://info.nec.go.kr/main/main_searchMenu.xhtml?searchKeyword=%EC%84%A0%EA%B1%B0%EA%B5%AC&electionId=0020130424)
 
 
 ### 자체생성코드
